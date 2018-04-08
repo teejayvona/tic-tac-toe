@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:drawable/arrow_up_float"
+    tools:context="com.example.andriod.tictactoe.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Game"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Teejay"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Game"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 * 3 game"
+        android:textSize="20dp"
+        android:padding="7dp"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:text="5 * 5 game"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
